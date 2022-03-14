@@ -1,19 +1,19 @@
 
-# numbers = [1,3,5,7,9,12,19,21]
-# toplam = 0
-# for number in numbers:
-#     if number % 3 == 0:
-#         print(f"{number} sayısı 3'ün katıdır.")
-#     if number % 2 != 0:
-#             print(number ** 2)
-#     toplam = toplam + number
-# print(toplam)
+numbers = [1,3,5,7,9,12,19,21]
+toplam = 0
+for number in numbers:
+    if number % 3 == 0:
+        print(f"{number} sayısı 3'ün katıdır.")
+    if number % 2 != 0:
+            print(number ** 2)
+    toplam = toplam + number
+print(toplam)
 
-# sehirler = [ "kocaeli","istanbul","ankara","izmir","rize" ]
+sehirler = [ "kocaeli","istanbul","ankara","izmir","rize" ]
 
-# for sehir in sehirler:
-#     if len(sehir) < 6:
-#         print(f"{sehir} adlı şehir en fazla 5 karakterlidir.")
+for sehir in sehirler:
+    if len(sehir) < 6:
+        print(f"{sehir} adlı şehir en fazla 5 karakterlidir.")
 
 urunler = [
     {"name":"SamsungS6","price":"3000"},
