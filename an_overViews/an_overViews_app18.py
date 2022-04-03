@@ -1,9 +1,4 @@
 
-
-
-from multiprocessing.connection import answer_challenge
-
-
 class Questions():
     def __init__(self, text, choices, answer):
         self.text = text
