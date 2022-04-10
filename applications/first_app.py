@@ -1,1 +1,0 @@
-print("Baba Geri Geldi...");
