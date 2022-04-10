@@ -57,18 +57,18 @@ ucus3 = Ucus("TK205", "Bodrum", "Siirt", 70, 250, 160)
 
 
 
-# print(ucus2.kalkis)
-# print(ucus2.havayolu)
-# print(ucus3.anons_yap())
-# print(ucus3.kapasite_guncelleme())
-# print(ucus3.bilet_satis(50))
-# print(ucus3.bilet_iptal(2))
-# print(ucus3.bilet_iptal(300)) 
+print(ucus2.kalkis)
+print(ucus2.havayolu)
+print(ucus3.anons_yap())
+print(ucus3.kapasite_guncelleme())
+print(ucus3.bilet_satis(50))
+print(ucus3.bilet_iptal(2))
+print(ucus3.bilet_iptal(300)) 
 
 # Classın default olarak hangi metotlara sahip olduğunu gösterir. 
-# print(ucus3.__dir__())
+print(ucus3.__dir__())
 
-# print(ucus3)
+print(ucus3)
 ## __repr__   sınıfın tutulduğu yerin adresi yerine gösterilecek yazı gösterilir.
 
 
