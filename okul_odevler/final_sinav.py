@@ -1,9 +1,4 @@
 
-from typing_extensions import Self
-
-from sympy import true
-
-
 class HesapMakinesi:
     def __init__(self, secim, uzunluk, taban, yukseklik):
         self.secim = secim
