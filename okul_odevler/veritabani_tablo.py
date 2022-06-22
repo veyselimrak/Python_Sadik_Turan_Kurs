@@ -1,4 +1,5 @@
 import sqlite3
+#Veri Tabanına Dışarıdan Veri Girişi
 
 vt = sqlite3.connect("veriTabani2.db")
 
